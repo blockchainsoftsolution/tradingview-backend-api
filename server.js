@@ -19,6 +19,6 @@ connectDB()
 
 updatePairs()
 
-app.listen(DEFAULT_PORT, () => {
-    console.log(`Server is running on http://0.0.0.0:${DEFAULT_PORT}`);
+app.listen(3000, () => {
+    console.log(`Server is running on 3000`);
 });
